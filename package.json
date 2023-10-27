@@ -1,0 +1,27 @@
+{
+	"name": "estheme",
+	"displayName": "estheme - esthe's One Dark Pro mod",
+	"description": "esthe's pink theme (one dark pro but only in the purple/pink hues)",
+	"publisher": "esthe",
+	"version": "1.0.0",
+	"license": "MIT",
+	"engines": {
+		"vscode": "^1.83.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/esthedebeste/estheme.git"
+	},
+	"contributes": {
+		"themes": [
+			{
+				"label": "estheme",
+				"uiTheme": "vs-dark",
+				"path": "./themes/estheme-color-theme.json"
+			}
+		]
+	}
+}
